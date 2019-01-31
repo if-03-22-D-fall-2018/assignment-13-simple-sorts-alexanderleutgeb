@@ -18,9 +18,9 @@
 *** @brief Description of stopwatch
 *** @page Stopwatch
 *** Functions to measure the processor time needed for a section of code. Usage
-*** <pre>
-*** <code>
 *** start_stopwatch();
+*** <code>
+*** <pre>
 *** ...
 *** // some code to be measured
 *** float elapsed1 = elapsed_time(); // given in seconds
@@ -37,5 +37,8 @@
 *** Care must be taken that we measure cpu time! Check out the function clock() and the constant
 *** CLOCKS_PER_SEC from time.h in order to implement the functions correctly.
 */
-
+void start_stopwatch();
+float elapsed_time();
+void stop_stopwatch();
+void clock();
 #endif

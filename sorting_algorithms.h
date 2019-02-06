@@ -23,4 +23,5 @@
 void bubble_sort(int small_array[],int length);
 void insertion_sort(int small_array[],int length);
 void init_random(int small_array[],int length);
+
 #endif
